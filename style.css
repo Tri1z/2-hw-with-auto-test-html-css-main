@@ -101,7 +101,7 @@ select {
 }
 
 .frameworks-list {
-    padding-left: 22px;
+    padding: 0px 20px;
     font-weight: 400;
     color: #303030;
     font-size: 16px;
@@ -114,7 +114,7 @@ select {
     font-weight: 400;
     color: #303030;
     font-size: 16px;
-    padding-left: 22px;
+    padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -167,16 +167,13 @@ table {
 }
 
 th, td {
-    padding-left: 15px;
-    padding-top: 11px ;
-    padding-bottom: 12px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color: #A3A7FF;
-    padding-top: 26px;
-    padding-bottom: 27px;
+    padding: 26px 0;
 
     /* Стили для футера */
 }
