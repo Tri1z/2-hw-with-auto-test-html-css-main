@@ -81,12 +81,7 @@ select {
 
     background-image: url('img/solar_map-arrow-up-bold.svg');
     background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 12px;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    cursor: pointer;
+    
 }
 
 .section-title {
