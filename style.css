@@ -71,17 +71,22 @@ color: #303030;
 
 select {
     width: 150px;
-height: 36px;
-border: 1px solid #3030304c;
-border-radius: 5px;
-padding-left: 12px;
-font-size: 16px;
-font-weight: 400;
-color: #303030;
-list-style-image: url(img/solar_map-arrow-up-bold.svg);
-background-repeat: no-repeat;
+    height: 36px;
+    border: 1px solid #3030304c;
+    border-radius: 5px;
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
 
-    /* Стили для выпадающего списка */
+    background-image: url('img/solar_map-arrow-up-bold.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
 }
 
 .section-title {
