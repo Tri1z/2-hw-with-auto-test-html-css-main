@@ -70,10 +70,16 @@ color: #303030;
 }
 
 select {
-    width: 150;
-height: 36;
-top: 1194px;
-border-width: 1px;
+    width: 150px;
+height: 36px;
+border: 1px solid #3030304c;
+border-radius: 5px;
+padding-left: 12px;
+font-size: 16px;
+font-weight: 400;
+color: #303030;
+list-style-image: url(img/solar_map-arrow-up-bold.svg);
+background-repeat: no-repeat;
 
     /* Стили для выпадающего списка */
 }
@@ -94,7 +100,7 @@ border-width: 1px;
     font-weight: 400;
     color: #303030;
     font-size: 16px;
-    list-style-image: url(img/solar_map-arrow-up-bold.svg);
+    
 
     /* Стили для маркированного списка во второй секции */
 }
